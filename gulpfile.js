@@ -124,7 +124,7 @@ gulp.task('server', function() {
   });
 
     
-gulp.task('deploy', ['pdf'], function () {
+gulp.task('deploy', function () {
   return gulp.src("./out/**/*")
     .pipe(deploy())
 });
