@@ -1,0 +1,46 @@
+.experience
+	&__item
+		display flex
+		margin-left	-5px
+		margin-right -5px
+		clearfix()
+		@media tablet_desktop
+			margin-top 20px
+		@media phone
+			margin-top 10px
+		@media print
+			margin-top 0
+		
+		& + .experience__item
+			margin-top 30px
+			
+			@media print
+				margin-top 10px
+	&__duration
+	&__company
+	&__position
+		display flex
+		
+	&__label
+		flex-basis 80px
+		flex-shrink 0
+		color #7f8c8d
+		
+	&__value
+		flex-grow 1
+
+	&__description
+		.experience
+			&__value
+				margin 0
+				@media print
+					margin 0
+				@media phone
+					margin-top 10px
+	&__column
+		padding 0 5px
+		&_left
+			flex-basis 60%
+		&_right
+			flex-basis 40%
+			

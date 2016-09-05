@@ -1,0 +1,17 @@
+name: Marina Lysenko
+subtitle: Lawyer
+items:
+  - key: "Year of Birth"
+    value: "1988"
+  - key: "Location"
+    value: "Kyiv, Ukraine"
+  - key: "Mobile"
+    value: "<a href='tel:+380969818032?call'>+38 (096) 981 80 32</a>"
+  - key: "Skype"
+    value: "<a href='skype:marinalysenko7?call'>marinalysenko7</a>"
+  - key: "E-mail"
+    value: "<a href='mailto: marina.ig.lysenko@gmail.com'>marina.ig.lysenko@gmail.com</a>"
+  - key: "Link on SV"
+    value: "lysenko.pp.ua"
+    mod: "visible-print"
+mainPhoto: /assets/i/photo.jpg
