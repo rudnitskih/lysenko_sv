@@ -11,7 +11,7 @@ items:
     value: "<a href='skype:marinalysenko7?call'>marinalysenko7</a>"
   - key: "E-mail"
     value: "<a href='mailto: marina.ig.lysenko@gmail.com'>marina.ig.lysenko@gmail.com</a>"
-  - key: "Link on SV"
+  - key: "Link on CV"
     value: "lysenko.pp.ua"
     mod: "visible-print"
-mainPhoto: /assets/i/photo.jpg
+mainPhoto: assets/i/photo.jpg

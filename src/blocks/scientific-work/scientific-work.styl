@@ -1,13 +1,18 @@
 .scientific-work
-	display flex
-	margin 0 -10px
+	@media tablet_desktop
+		display flex
+		margin 0 -10px
 	
 	&__column
-		flex 0 0 50%
-		padding 0 10px
+		@media tablet_desktop
+			flex 0 0 50%
+			padding 0 10px
 		
 	&__row
-		margin 3px 0
+		@media tablet_desktop
+			margin 3px 0
+		@media phone
+			margin 6px 0
 		&:not(.scientific-work__row_big)
 			display flex 
 	

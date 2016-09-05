@@ -1,4 +1,5 @@
-var gulp = require('gulp'),
+var packageJson = require('./package.json')
+    gulp = require('gulp'),
     livereload = require('gulp-livereload'),
     connect = require('connect'),
     fs = require('fs'),
@@ -101,6 +102,14 @@ gulp.task('server', function() {
     console.log('Сервер работает по адресу http://localhost:8080');
 });
 
+gulp.task('CNAME', function() {
+    fs.writeFile('./out/CNAME', packageJson.ghPagesURL, function(err){
+      if (err) {
+        console.log(err);
+      }
+    });
+});
+
  gulp.task('watch', function(){
       livereload.listen();
 
@@ -110,7 +119,7 @@ gulp.task('server', function() {
       gulp.watch([ 'src/blocks/**/*.styl', 'src/assets/styles/*.styl' ],['styles']);
       gulp.start('server');
   });
-  gulp.task('default',['watch', 'jade', 'imagemin', "scripts", "styles", "fonts" ]);
+  gulp.task('default',['watch', 'jade', 'imagemin', "scripts", "styles", "fonts", "CNAME" ]);
 
   gulp.task('pdf', function () {
     createPdf({

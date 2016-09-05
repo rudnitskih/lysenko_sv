@@ -1,5 +1,5 @@
 if contactInfo
-	.main-info__column.main-info__column-left
+	.main-info__column.main-info__column_left
 		hgroup.main-info__titles
 			h1.main-info__title!= contactInfo.name 
 			h2.main-info__subtitle!= contactInfo.subtitle 
@@ -10,7 +10,7 @@ if contactInfo
 						dt.main-info__label #{item.key}:
 						dd.main-info__value!= item.value
 
-.main-info__column.main-info__column-right
+.main-info__column.main-info__column_right
 	if contactInfo.mainPhoto
 		.main-info__photo-container
 			img.main-info__photo(src=contactInfo.mainPhoto alt="")

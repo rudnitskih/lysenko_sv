@@ -1,7 +1,7 @@
 .main-info
 	@media tablet_desktop
+		display flex
 		margin-top 50px
-		clearfix()
 	@media phone
 		margin-top 10px
 		font-size 15px
@@ -9,9 +9,12 @@
 		font-size 13px
 		margin-top 0
 	&__column
-		@media tablet_desktop
-			float left
-			width 50%
+		&_left
+			@media tablet_desktop
+				flex-grow 1
+		&_right
+			@media tablet_desktop
+				flex-shrink 0
 	&__photo
 		width 160px
 		@media print
@@ -26,6 +29,8 @@
 		color #7f8c8d
 		display inline-block
 		width 120px
+		@media phone
+			width 80px
 	&__value
 		display: inline-block
 		margin: 0

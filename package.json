@@ -1,6 +1,7 @@
 {
   "name": "codemotion",
   "version": "1.0.0",
+  "ghPagesURL": "marinalysenko.pp.ua",
   "dependencies": {
     "connect-livereload": "*",
     "gulp": "*",
