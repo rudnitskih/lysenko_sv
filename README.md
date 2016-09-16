@@ -1,4 +1,4 @@
-## Dmytro Rudnytskykh SV
+## Maryna Lysenko CV
 
 ```shell
   npm install
