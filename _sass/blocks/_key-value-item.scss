@@ -1,0 +1,17 @@
+.key-value-item {
+  display: flex;
+  margin: 0;
+
+  &__key {
+    flex: 0 0 150px;
+    color: #7f8c8d;
+
+    &_small {
+      flex-basis: 110px;
+    }
+  }
+
+  &__value {
+    margin: 0;
+  }
+}

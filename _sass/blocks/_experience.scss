@@ -1,28 +1,4 @@
-.experience {
-  &__duration,
-  &__position,
-  &__company,
-  &__description {
-    display: flex;
-  }
-
-  &__description {
-    .experience__value {
-      margin: 0;
-
-      @media screen and (max-width: 767px) {
-        margin-top: 10px
-      }
-    }
-  }
-
-  &__label {
-    flex: 0 0 140px;
-    color: #7f8c8d;
-  }
-}
-
-@media (min-width: 768px), print {
+@media (min-width: 768px) {
   .experience__item {
     margin-top: 30px
   }

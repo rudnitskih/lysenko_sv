@@ -2,28 +2,31 @@
     <dl class="education__list" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
         {% for university in site.data.education %}
             <div class="education__item">
-                <div class="education__info education__info_years">
-                    <dt class="education__key">Years:</dt>
-                    <dd class="education__value">{{ university.duration }}</dd>
-                </div>
-                <div class="education__info">
-                    <dt class="education__key">Degree:</dt>
-                    <dd class="education__value">{{ university.degree }}</dd>
-                </div>
-                <div class="education__info">
-                    <dt class="education__key">Alma mater:</dt>
-                    <dd class="education__value">
+                <dl class="key-value-item">
+                    <dt class="key-value-item__key">Years:</dt>
+                    <dd class="key-value-item__value">{{ university.duration }}</dd>
+                </dl>
+
+                <dl class="key-value-item">
+                    <dt class="key-value-item__key">Degree:</dt>
+                    <dd class="key-value-item__value">{{ university.degree }}</dd>
+                </dl>
+
+                <dl class="key-value-item">
+                    <dt class="key-value-item__key">Alma mater:</dt>
+                    <dd class="key-value-item__value">
                         <a itemprop="name"
                            href="//{{ university.almamater.url }}"
                            title="{{ university.almamater.url }}"
                            target="_blank">{{ university.almamater.name }}</a>
                     </dd>
-                </div>
-                <div class="education__info">
-                    <dt class="education__key">Major:</dt>
+                </dl>
+
+                <dl class="key-value-item">
+                    <dt class="key-value-item__key">Major:</dt>
                     <dd itemprop="description"
-                        class="education__value">{{ university.major }}</dd>
-                </div>
+                        class="key-value-item__value">{{ university.major }}</dd>
+                </dl>
             </div>
         {% endfor %}
     </dl>

@@ -1,14 +1,8 @@
 <div class="languages">
-    <dl class="languages__list">
-        {% for language in site.data.languages %}
-            <div class="languages__item">
-                <dt class="languages__key">
-                    <span>{{ language.name }}:</span>
-                </dt>
-                <dd class="languages__value">
-                    <span class="languages__level">{{ language.level }}</span>
-                </dd>
-            </div>
-        {% endfor %}
+    {% for language in site.data.languages %}
+    <dl class="key-value-item">
+        <dt class="key-value-item__key key-value-item__key_small">{{ language.name }}:</dt>
+        <dd class="key-value-item__value">{{ language.level }}</dd>
     </dl>
+    {% endfor %}
 </div>

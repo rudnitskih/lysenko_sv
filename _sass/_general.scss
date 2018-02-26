@@ -116,16 +116,14 @@ a[href^="http"] {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .hidden-phone {
-    display: none
-  }
-}
-
 .two-sections {
   display: flex;
 
   .section {
     flex: 0 0 50%;
+
+    &_languages {
+      padding-left: 20%;
+    }
   }
 }
