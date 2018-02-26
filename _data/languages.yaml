@@ -1,10 +1,9 @@
 - 
-  name: English
-  level: intermediate 
-  description: "Have participated at program Work&Travel USA. Live in Virginia state during 3 month"
+  name: "English"
+  level: "intermediate"
 - 
-  name: Ukrainian
-  level: advanced
+  name: "Ukrainian"
+  level: "native language"
 - 
-  name: Russian
-  level: native language
+  name: "Russian"
+  level: "advanced"

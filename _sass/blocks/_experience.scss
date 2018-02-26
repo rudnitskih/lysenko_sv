@@ -1,29 +1,9 @@
 .experience {
-  &__item {
-    @media (min-width: 768px), print {
-      display: flex;
-    }
-  }
-
   &__duration,
   &__position,
-  &__company {
+  &__company,
+  &__description {
     display: flex;
-  }
-
-  &__column {
-    @media (min-width: 768px) and (max-width: 1023px), print {
-      width: 50%;
-    }
-    @media screen and (min-width: 1024px) {
-      &_left {
-        flex: 0 0 40%;
-      }
-
-      &_right {
-        flex: 1;
-      }
-    }
   }
 
   &__description {
@@ -37,8 +17,8 @@
   }
 
   &__label {
-    flex: 0 0 110px;
-    color: #7f8c8d
+    flex: 0 0 140px;
+    color: #7f8c8d;
   }
 }
 
@@ -56,18 +36,18 @@
 
 @media (min-width: 768px), print {
   .experience__item + .experience__item {
-    margin-top: 50px
+    margin: 30px 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .experience__item + .experience__item {
-    margin-top: 30px
+    margin: 15px 0;
   }
 }
 
 @media print {
   .experience__item + .experience__item {
-    margin-top: 10px
+    margin: 10px 0;
   }
 }

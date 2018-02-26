@@ -1,12 +1,18 @@
-- duration: 2015 - now
+  #  TODO-DR add url
+- duration: "2014 – Present"
   company:
-    name: GlobalLogic Ukraine
-    url: globallogic.com
-  position: "Software Engineer, AngularJS developer"
-  description: "I am working on American technology company`s project. This company produces software and services that assist businesses in moving to digital operations. My responsibilities include writing businesses logic on UI, creating markup by design mockups, communicating with international back-end and UX teams to implement features, writing unit-tests. The main framework is AngularJS and some BackboneJS"
-- duration: 2014 - 2015
+    name: "The Institute of Criminal Execution Service"
+  position: "Associate Professor of the Penitentiary Department"
+  description: "Teaching of Penal Law"
+- duration: "2013 – 2014"
   company:
-    name: Se7ensky art studio
-    url: se7ensky.com
-  position: "Frontend, JS developer"
-  description: "My responsibilities included full front-end work: creating markup, scripting, optimization, supporting, manual testing. Sometimes I created back-end using PHP, WordPress and Jade2Php plugin. Main stack was Jade/Stylus/CoffeeScript and BEM."
+    name: "Institute of Postgraduate Education of teachers named after K. D. Ushinsky of Chernihiv Regional Council"
+    url: "//choippo.edu.ua"
+  position: "Senior lecturer"
+  description: "Teaching of Labor law and providing legal consulting"
+- duration: "2011 – 2013"
+  company:
+    name: "Chernihiv Law College of the State Penitentiary Service of Ukraine"
+    url: "//academy.kvs.gov.ua"
+  position: "Lecturer in Criminal Law"
+  description: "Teaching of Criminal Law"

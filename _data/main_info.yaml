@@ -1,5 +1,5 @@
-name: Dmytro Rudnytskykh
-position: Front-end, JS Developer
+name: "Maryna Rudnytskykh"
+position: "Associate Professor of the Penitentiary Department of the Institute of Criminal Execution Service, Ph.D."
 items:
   - key: "Age"
     value: "30 years"
@@ -8,9 +8,7 @@ items:
   - key: "Mobile"
     value: "<a href='tel:+380969818032?call'>+38 (096) 981 80 32</a>"
   - key: "Skype"
-    value: "<a href='skype:dmytro.rudnitskih?call'>dmytro.rudnitskih</a>"
+    value: "<a href='skype:marinalysenko7?call'>marinalysenko7</a>"
   - key: "E-mail"
     value: "<a href='mailto: marina.ig.lysenko@gmail.com'>marina.ig.lysenko@gmail.com</a>"
-  - key: "LinkedIn"
-    value: "<a href='//ua.linkedin.com/in/rudnitskih' target='_blank'>Dmytro Rudnytskykh</a>"
 photo: "assets/images/photo.jpg"

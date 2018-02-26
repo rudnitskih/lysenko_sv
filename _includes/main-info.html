@@ -2,10 +2,10 @@
 
 <div class="main-info">
     <div class="main-info__column main-info__column_left">
-        <hgroup class="main-info__titles">
+        <div class="main-info__titles">
             <h1 class="main-info__title" itemprop="name">{{ mainInfo.name }}</h1>
-            <h2 class="main-info__subtitle" itemprop="jobTitle">{{ mainInfo.position }}</h2>
-        </hgroup>
+            <h3 class="main-info__subtitle" itemprop="jobTitle">{{ mainInfo.position }}</h3>
+        </div>
 
         <dl class="main-info__list">
             {% for item in {{mainInfo.items}} %}
