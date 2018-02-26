@@ -1,3 +1,6 @@
-bower_components
+_site
+.sass-cache
+.jekyll-metadata
+.DS_Store
+.idea
 node_modules
-src/tmp

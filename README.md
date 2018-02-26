@@ -1,7 +1,3 @@
-## Maryna Lysenko CV
+# CV
 
-```shell
-  npm install
-  bower install
-  gulp
-```
+The project is using [Jekyll](https://jekyllrb.com/) stitic site generator. Check documentation out to find details how to run it.

@@ -1,5 +1,5 @@
-name: Marina Lysenko
-subtitle: Lawyer
+name: "Maryna Rudnytskykh"
+subtitle: "Associate Professor of the Penitentiary Department of the Institute of Criminal Execution Service, Ph.D."
 items:
   - key: "Year of Birth"
     value: "1988"
@@ -14,4 +14,4 @@ items:
   - key: "Link on CV"
     value: "lysenko.pp.ua"
     mod: "visible-print"
-mainPhoto: assets/i/photo.jpg
+mainPhoto: "assets/i/photo.jpg"

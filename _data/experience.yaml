@@ -1,0 +1,12 @@
+- duration: 2015 - now
+  company:
+    name: GlobalLogic Ukraine
+    url: globallogic.com
+  position: "Software Engineer, AngularJS developer"
+  description: "I am working on American technology company`s project. This company produces software and services that assist businesses in moving to digital operations. My responsibilities include writing businesses logic on UI, creating markup by design mockups, communicating with international back-end and UX teams to implement features, writing unit-tests. The main framework is AngularJS and some BackboneJS"
+- duration: 2014 - 2015
+  company:
+    name: Se7ensky art studio
+    url: se7ensky.com
+  position: "Frontend, JS developer"
+  description: "My responsibilities included full front-end work: creating markup, scripting, optimization, supporting, manual testing. Sometimes I created back-end using PHP, WordPress and Jade2Php plugin. Main stack was Jade/Stylus/CoffeeScript and BEM."

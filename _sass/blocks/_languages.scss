@@ -1,0 +1,21 @@
+.languages {
+  &__list {
+    @media print {
+      margin: 0
+    }
+  }
+
+  &__item {
+    display: flex;
+  }
+
+  &__key {
+    flex: 0 0 110px;
+    color: #7f8c8d
+  }
+
+  &__value {
+    flex: 1;
+    margin: 0;
+  }
+}
