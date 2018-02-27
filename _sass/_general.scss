@@ -119,11 +119,11 @@ a {
     min-width: 350px;
 
     &_languages {
-      @media screen and (min-width: 1024px), print {
+      @media screen and (min-width: 1024px) {
         padding-left: 20%;
       }
 
-      @media (min-width: 768px) {
+      @media screen and (min-width: 768px), print {
         padding-left: 10%;
       }
     }
