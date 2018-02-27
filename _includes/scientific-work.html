@@ -1,18 +1,18 @@
 {% assign scientificWork = site.data.scientific_work %}
 
 <div class="scientific-work">
-    <div class="scientific-work__item">
-        <span class="scientific-work__label">Years:</span>
-        <span class="scientific-work__value">{{ scientificWork.duration }}</span>
+    <div class="key-value-item">
+        <span class="key-value-item__key">Years:</span>
+        <span class="key-value-item__value">{{ scientificWork.duration }}</span>
     </div>
 
-    <div class="scientific-work__item">
-            <span class="scientific-work__label">Research Interests:</span>
-        <span class="scientific-work__value">{{ scientificWork.description }}</span>
+    <div class="key-value-item">
+        <span class="key-value-item__key">Research Interests:</span>
+        <span class="key-value-item__value">{{ scientificWork.description }}</span>
     </div>
 
-    <div class="scientific-work__item">
-        <span class="scientific-work__label">Publications:</span>
-        <span class="scientific-work__value">{{ scientificWork.achievements }}</span>
+    <div class="key-value-item">
+        <span class="key-value-item__key">Publications:</span>
+        <span class="key-value-item__value">{{ scientificWork.achievements }}</span>
     </div>
 </div>

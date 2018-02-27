@@ -1,17 +1,10 @@
 .main-info {
   @media screen and (max-width: 767px) {
-    margin-top: 10px;
     font-size: 15px
   }
 
-  @media (min-width: 768px), print {
+  @media screen and (min-width: 768px), print {
     display: flex;
-    margin-top: 50px;
-  }
-
-  @media print {
-    font-size: 13px;
-    margin-top: 0;
   }
 
   &__title {
@@ -51,6 +44,10 @@
       top: 0;
       right: 0;
     }
+  }
+
+  &__list {
+    margin: 1em 0;
   }
 
   &__links {

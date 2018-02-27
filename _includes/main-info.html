@@ -7,14 +7,14 @@
             <h3 class="main-info__subtitle" itemprop="jobTitle">{{ mainInfo.position }}</h3>
         </div>
 
-        <dl class="main-info__list">
+        <div class="main-info__list">
             {% for item in {{mainInfo.items}} %}
-                <div class="key-value-item">
+                <dl class="key-value-item">
                     <dt class="key-value-item__key key-value-item__key_small">{{ item.key }}:</dt>
                     <dd class="key-value-item__value">{{ item.value }}</dd>
-                </div>
+                </dl>
             {% endfor %}
-        </dl>
+        </div>
 
         <div class="main-info__links">
             {% for link in {{site.data.links}} %}
