@@ -1,9 +1,14 @@
-- 
-  name: "English"
-  level: "intermediate"
-- 
-  name: "Ukrainian"
-  level: "native language"
-- 
-  name: "Russian"
-  level: "advanced"
+en:
+  - name: "English"
+    level: "intermediate"
+  - name: "Ukrainian"
+    level: "native language"
+  - name: "Russian"
+    level: "advanced"
+ua:
+  - name: "English"
+    level: "intermediate"
+  - name: "Ukrainian"
+    level: "native language"
+  - name: "Russian"
+    level: "advanced"

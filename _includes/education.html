@@ -1,6 +1,6 @@
 <div class="education">
     <div class="education__list" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
-        {% for university in site.data.education %}
+        {% for university in site.data.education[page.language] %}
             <div class="education__item">
                 <dl class="key-value-item">
                     <dt class="key-value-item__key">Years:</dt>

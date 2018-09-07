@@ -1,18 +1,38 @@
-- duration: "2014 – 2018"
-  company:
-    name: "The Institute of Criminal Execution Service"
-    url: "//ikvsu.kvs.gov.ua/"
-  position: "Associate Professor of the Penitentiary Department"
-  description: "Teaching of Penal Law"
-- duration: "2013 – 2014"
-  company:
-    name: "Institute of Postgraduate Education of teachers named after K. D. Ushinsky"
-    url: "//choippo.edu.ua"
-  position: "Senior lecturer"
-  description: "Teaching of Labor law and providing legal consulting"
-- duration: "2011 – 2013"
-  company:
-    name: "Chernihiv Law College of the State Penitentiary Service of Ukraine"
-    url: "//academy.kvs.gov.ua"
-  position: "Lecturer in Criminal Law"
-  description: "Teaching of Criminal Law"
+en:
+  - duration: "2014 – 2018"
+    company:
+      name: "The Institute of Criminal Execution Service"
+      url: "//ikvsu.kvs.gov.ua/"
+    position: "Associate Professor of the Penitentiary Department"
+    description: "Teaching of Penal Law"
+  - duration: "2013 – 2014"
+    company:
+      name: "Institute of Postgraduate Education of teachers named after K. D. Ushinsky"
+      url: "//choippo.edu.ua"
+    position: "Senior lecturer"
+    description: "Teaching of Labor law and providing legal consulting"
+  - duration: "2011 – 2013"
+    company:
+      name: "Chernihiv Law College of the State Penitentiary Service of Ukraine"
+      url: "//academy.kvs.gov.ua"
+    position: "Lecturer in Criminal Law"
+    description: "Teaching of Criminal Law"
+ua:
+  - duration: "2014 – 2018"
+    company:
+      name: "The Institute of Criminal Execution Service"
+      url: "//ikvsu.kvs.gov.ua/"
+    position: "Associate Professor of the Penitentiary Department"
+    description: "Teaching of Penal Law"
+  - duration: "2013 – 2014"
+    company:
+      name: "Institute of Postgraduate Education of teachers named after K. D. Ushinsky"
+      url: "//choippo.edu.ua"
+    position: "Senior lecturer"
+    description: "Teaching of Labor law and providing legal consulting"
+  - duration: "2011 – 2013"
+    company:
+      name: "Chernihiv Law College of the State Penitentiary Service of Ukraine"
+      url: "//academy.kvs.gov.ua"
+    position: "Lecturer in Criminal Law"
+    description: "Teaching of Criminal Law"

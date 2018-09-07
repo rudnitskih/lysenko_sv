@@ -1,6 +1,22 @@
-name: "Maryna Rudnytskykh"
-position: "Associate Professor of the Penitentiary Department of the Institute of Criminal Execution Service, Ph.D."
-items:
+en:
+  name: "Maryna Rudnytskykh"
+  position: "Associate Professor of the Penitentiary Department of the Institute of Criminal Execution Service, Ph.D."
+  items:
+    - key: "Age"
+      value: "29 years"
+    - key: "Location"
+      value: "Kyiv, Ukraine"
+    - key: "Mobile"
+      value: "<a href='tel:+380969818032?call'>+38 (096) 981 80 32</a>"
+    - key: "Skype"
+      value: "<a href='skype:marinalysenko7?call'>marinalysenko7</a>"
+    - key: "E-mail"
+      value: "<a href='mailto: marina.ig.lysenko@gmail.com'>marina.ig.lysenko@gmail.com</a>"
+  photo: "assets/images/photo.jpg"
+ua:
+  name: "Maryna Rudnytskykh"
+  position: "Associate Professor of the Penitentiary Department of the Institute of Criminal Execution Service, Ph.D."
+  items:
   - key: "Age"
     value: "29 years"
   - key: "Location"
@@ -11,4 +27,4 @@ items:
     value: "<a href='skype:marinalysenko7?call'>marinalysenko7</a>"
   - key: "E-mail"
     value: "<a href='mailto: marina.ig.lysenko@gmail.com'>marina.ig.lysenko@gmail.com</a>"
-photo: "assets/images/photo.jpg"
+  photo: "assets/images/photo.jpg"

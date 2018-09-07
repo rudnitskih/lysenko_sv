@@ -1,5 +1,5 @@
 <div class="soft-skills">
-    {% for skill in site.data.soft_skills %}
+    {% for skill in site.data.soft_skills[page.language] %}
     <span class="soft-skills__value">{{ skill }}</span>
     {% endfor %}
 </div>

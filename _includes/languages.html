@@ -1,5 +1,5 @@
 <div class="languages">
-    {% for language in site.data.languages %}
+    {% for language in site.data.languages[page.language] %}
     <dl class="key-value-item">
         <dt class="key-value-item__key key-value-item__key_small">{{ language.name }}:</dt>
         <dd class="key-value-item__value">{{ language.level }}</dd>
