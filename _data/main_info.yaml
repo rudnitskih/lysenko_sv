@@ -1,6 +1,7 @@
 en:
   name: "Maryna Rudnytskykh"
   position: "Position - Associate, Junior Associate"
+  items:
     - key: "Age"
       value: "29 years"
     - key: "Location"
