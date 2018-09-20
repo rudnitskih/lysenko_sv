@@ -1,18 +1,19 @@
+{% assign titles = site.data.translations[page.language].scientific_work %}
 {% assign scientificWork = site.data.scientific_work[page.language] %}
 
 <div class="scientific-work">
     <div class="key-value-item">
-        <span class="key-value-item__key">Years:</span>
+        <span class="key-value-item__key">{{ titles.years }}:</span>
         <span class="key-value-item__value">{{ scientificWork.duration }}</span>
     </div>
 
     <div class="key-value-item">
-        <span class="key-value-item__key">Research Interests:</span>
+        <span class="key-value-item__key">{{ titles.research_interests }}:</span>
         <span class="key-value-item__value">{{ scientificWork.description }}</span>
     </div>
 
     <div class="key-value-item">
-        <span class="key-value-item__key">Publications:</span>
+        <span class="key-value-item__key">{{ titles.publications }}:</span>
         <span class="key-value-item__value">{{ scientificWork.achievements }}</span>
     </div>
 </div>

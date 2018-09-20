@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign pageTitles = site.data.translations[page.language].titles %}
+
 <div class="container">
     <main class="main" itemscope itemtype="http://schema.org/Person">
         <section class="section">
@@ -10,37 +12,37 @@ layout: default
         <hr class="separator"/>
 
         <section id="summary" class="section">
-            <h1 class="section__title"><span class="section__icon icon-chart"></span>Work Experience</h1>
+            <h1 class="section__title"><span class="section__icon icon-chart"></span>{{ pageTitles.work_experience }}</h1>
             {% include experience.html %}
         </section>
         <hr class="separator"/>
 
         <section class="section">
-            <h1 class="section__title"><span class="section__icon icon-case"></span>Public Activity</h1>
+            <h1 class="section__title"><span class="section__icon icon-case"></span>{{ pageTitles.public_activity }}</h1>
             {% include public-activity.html %}
         </section>
         <hr class="separator"/>
 
         <section class="section">
-            <h1 class="section__title"><span class="section__icon icon-cap"></span>Education</h1>
+            <h1 class="section__title"><span class="section__icon icon-cap"></span>{{ pageTitles.education }}</h1>
             {% include education.html %}
         </section>
         <hr class="separator"/>
 
         <section class="section">
-            <h1 class="section__title"><span class="section__icon icon-gears"></span>Scientific Work</h1>
+            <h1 class="section__title"><span class="section__icon icon-gears"></span>{{ pageTitles.scientific_work}}</h1>
             {% include scientific-work.html %}
         </section>
         <hr class="separator"/>
 
         <div class="two-sections">
             <section class="section">
-                <h1 class="section__title"><span class="section__icon icon-summary"></span>Personal qualities</h1>
+                <h1 class="section__title"><span class="section__icon icon-summary"></span>{{ pageTitles.personal_qualities }}</h1>
                 {% include soft-skills.html %}
             </section>
 
             <section class="section section_languages">
-                <h1 class="section__title"><span class="section__icon icon-world"></span>Languages</h1>
+                <h1 class="section__title"><span class="section__icon icon-world"></span>{{ pageTitles.languages }}</h1>
                 {% include languages.html %}
             </section>
         </div>

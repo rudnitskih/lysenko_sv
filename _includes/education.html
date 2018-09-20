@@ -1,19 +1,21 @@
+{% assign titles = site.data.translations[page.language].education %}
+
 <div class="education">
     <div class="education__list" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
         {% for university in site.data.education[page.language] %}
             <div class="education__item">
                 <dl class="key-value-item">
-                    <dt class="key-value-item__key">Years:</dt>
+                    <dt class="key-value-item__key">{{titles.years}}:</dt>
                     <dd class="key-value-item__value">{{ university.duration }}</dd>
                 </dl>
 
                 <dl class="key-value-item">
-                    <dt class="key-value-item__key">Degree:</dt>
+                    <dt class="key-value-item__key">{{titles.degree}}:</dt>
                     <dd class="key-value-item__value">{{ university.degree }}</dd>
                 </dl>
 
                 <dl class="key-value-item">
-                    <dt class="key-value-item__key">Alma mater:</dt>
+                    <dt class="key-value-item__key">{{titles.alma_mater}}:</dt>
                     <dd class="key-value-item__value">
                         <a itemprop="name"
                            href="//{{ university.almamater.url }}"
@@ -23,7 +25,7 @@
                 </dl>
 
                 <dl class="key-value-item">
-                    <dt class="key-value-item__key">Major:</dt>
+                    <dt class="key-value-item__key">{{titles.major}}:</dt>
                     <dd itemprop="description"
                         class="key-value-item__value">{{ university.major }}</dd>
                 </dl>

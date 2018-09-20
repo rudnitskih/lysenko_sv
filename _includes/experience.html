@@ -1,13 +1,15 @@
+{% assign titles = site.data.translations[page.language].experience %}
+
 <div class="experience">
     {% for item in site.data.experience[page.language] %}
     <div class="experience__item" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
         <dl class="key-value-item">
-            <dt class="key-value-item__key">Years:</dt>
+            <dt class="key-value-item__key">{{ titles.years }}:</dt>
             <dd class="key-value-item__value">{{ item.duration }}</dd>
         </dl>
 
         <dl class="key-value-item">
-            <dt class="key-value-item__key">Company:</dt>
+            <dt class="key-value-item__key">{{ titles.company }}:</dt>
 
 
             <dd class="key-value-item__value">
@@ -24,13 +26,13 @@
         </dl>
 
         <dl class="key-value-item">
-            <span class="key-value-item__key">Position:</span>
+            <span class="key-value-item__key">{{ titles.position }}:</span>
             <dd class="key-value-item__value">{{ item.position }}</dd>
         </dl>
 
 
         <div class="key-value-item">
-            <dt class="key-value-item__key">Responsibilities:</dt>
+            <dt class="key-value-item__key">{{ titles.responsibilities }}:</dt>
             <dd class="key-value-item__value" itemprop="description">{{ item.description }}</dd>
         </div>
     </div>

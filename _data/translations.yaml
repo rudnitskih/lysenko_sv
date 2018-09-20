@@ -1,0 +1,44 @@
+en:
+  titles:
+    work_experience: Work Experience
+    public_activity: Public Activity
+    education: Education
+    scientific_work: Scientific Work
+    personal_qualities: Personal qualities
+    languages: Languages
+  education:
+    years: Years
+    degree: Degree
+    alma_mater: Alma mater
+    major: Major
+  experience:
+    years: Years
+    company: Company
+    position: Position
+    responsibilities: Responsibilities
+  scientific_work:
+    years: Years
+    research_interests: Research Interests
+    publications: Publications
+ua:
+  titles:
+    work_experience: Work Experience
+    public_activity: Public Activity
+    education: Education
+    scientific_work: Scientific Work
+    personal_qualities: Personal qualities
+    languages: Languages
+  education:
+    years: Роки
+    degree: Degree
+    alma_mater: Alma mater
+    major: Major
+  experience:
+    years: Роки
+    company: Company
+    position: Position
+    responsibilities: Responsibilities
+  scientific_work:
+    years: Роки
+    research_interests: Research Interests
+    publications: Publications
