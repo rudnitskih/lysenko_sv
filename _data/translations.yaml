@@ -22,12 +22,12 @@ en:
     publications: Publications
 ua:
   titles:
-    work_experience: Work Experience
-    public_activity: Public Activity
-    education: Education
-    scientific_work: Scientific Work
-    personal_qualities: Personal qualities
-    languages: Languages
+    work_experience: Досвід роботи
+    public_activity: Громадська діяльність
+    education: Освіта
+    scientific_work: Наукова діяльність
+    personal_qualities: Особисті якості
+    languages: Володіння мовою
   education:
     years: Роки
     degree: Degree
@@ -35,10 +35,10 @@ ua:
     major: Major
   experience:
     years: Роки
-    company: Company
-    position: Position
-    responsibilities: Responsibilities
+    company: Місце роботи
+    position: Посада
+    responsibilities: Обов'язки
   scientific_work:
     years: Роки
-    research_interests: Research Interests
-    publications: Publications
+    research_interests: Коло наукових інтересів
+    publications: Публікації
