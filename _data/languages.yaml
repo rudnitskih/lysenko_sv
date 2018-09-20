@@ -1,13 +1,13 @@
 en:
   - name: "English"
-    level: "upper-intermediate"
+    level: "intermediate"
   - name: "Ukrainian"
     level: "native language"
   - name: "Russian"
     level: "advanced"
 ua:
   - name: "Англійська мова"
-    level: "вищий середній"
+    level: "середній"
   - name: "Українська мова"
     level: "рідна мова"
   - name: "Російська мова"
