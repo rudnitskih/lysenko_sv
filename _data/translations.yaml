@@ -30,9 +30,9 @@ ua:
     languages: Володіння мовою
   education:
     years: Роки
-    degree: Degree
-    alma_mater: Alma mater
-    major: Major
+    degree: Освітній рівень
+    alma_mater: Навчальний заклад
+    major: Спеціальність
   experience:
     years: Роки
     company: Місце роботи
