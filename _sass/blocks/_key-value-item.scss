@@ -9,6 +9,10 @@
     &_small {
       flex-basis: 170px;
     }
+
+    [lang="ua"] & {
+      flex-basis: 170px;
+    }
   }
 
   &__value {
