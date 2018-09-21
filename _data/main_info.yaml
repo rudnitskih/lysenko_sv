@@ -2,8 +2,6 @@ en:
   name: "Maryna Rudnytskykh"
   position: "Position - Associate, Junior Associate"
   items:
-    - key: "Age"
-      value: "29 years"
     - key: "Location"
       value: "Kyiv, Ukraine"
     - key: "Mobile"
@@ -17,8 +15,6 @@ ua:
   name: "Марина Рудницьких"
   position: "Посада - юрист/молодший юрист"
   items:
-  - key: "Вік"
-    value: "29 years"
   - key: "Місце проживання"
     value: "Київ, Україна"
   - key: "Номер телефону"
