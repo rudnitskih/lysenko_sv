@@ -1,6 +1,6 @@
 en:
   name: "Maryna Rudnytskykh"
-  position: "Position - Associate, Junior Associate"
+  position: ""
   items:
     - key: "Location"
       value: "Kyiv, Ukraine"
@@ -13,7 +13,7 @@ en:
   photo: "assets/images/photo.jpg"
 ua:
   name: "Марина Рудницьких"
-  position: "Старший дослідник"
+  position: ""
   items:
   - key: "Місце проживання"
     value: "Київ, Україна"
