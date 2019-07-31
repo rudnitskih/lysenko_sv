@@ -2,19 +2,19 @@ en:
   - duration: "2014 – 2018"
     company:
       name: "The Institute of Criminal Execution Service"
-      url: "//ikvsu.kvs.gov.ua/"
+      url: ikvsu.kvs.gov.ua/"
     position: "Associate Professor of the Penitentiary Department"
     description: "Teaching of Penal Law"
   - duration: "2013 – 2014"
     company:
       name: "Institute of Postgraduate Education of teachers named after K. D. Ushinsky"
-      url: "//choippo.edu.ua"
+      url: "choippo.edu.ua"
     position: "Senior lecturer"
     description: "Teaching of Labor law and providing legal consulting"
   - duration: "2011 – 2013"
     company:
       name: "Chernihiv Law College of the State Penitentiary Service of Ukraine"
-      url: "//academy.kvs.gov.ua"
+      url: "academy.kvs.gov.ua"
     position: "Lecturer in Criminal Law"
     description: "Teaching of Criminal Law"
 ua:
@@ -27,18 +27,18 @@ ua:
   - duration: "2014 – 2018"
     company:
       name: "Національна академія внутрішніх справ"
-      url: "//freezone.org.ua"
+      url: "freezone.org.ua"
     position: "Доцент кафедри кримінології та кримінально-виконавчого права"
     description: "Викладання кримінального, кримінально-виконавчого права, проведення наукових досілджень у сфері кримінальної юстиції, організація наукових заходів"
   - duration: "2013 – 2014"
     company:
       name: "Чернігівський обласний інститут післядипломної педагогічної освіти імені К.Д. Ушинського"
-      url: "//choippo.edu.ua"
+      url: "choippo.edu.ua"
     position: "Старший викладач"
     description: "Викладання трудового права та надання юридичних консультацій"
   - duration: "2011 – 2013"
     company:
       name: "Чернігівський юридичний коледж"
-      url: "//academy.kvs.gov.ua"
+      url: "academy.kvs.gov.ua"
     position: "Викладач кримінального права"
     description: "Викладання кримінального права"
