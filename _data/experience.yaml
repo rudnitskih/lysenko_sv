@@ -4,13 +4,13 @@ en:
       name: 'Charitable organization "FREE ZONE"'
       url:  "freezone.org.ua"
     position: "Project manager"
-    description: "Implementation of national level projects in the in the penitentiary sphere"
+    description: "Implementation of national level projects in the in the penitentiary field"
   - duration: "2014 – 2018"
     company:
       name: "The Institute of Criminal Execution Service"
       url: ikvsu.kvs.gov.ua/"
     position: "Associate Professor of the Penitentiary Department"
-    description: "Teaching of Penal Law"
+    description: "Teaching of Penitentiary Law"
   - duration: "2013 – 2014"
     company:
       name: "Institute of Postgraduate Education of teachers named after K. D. Ushinsky"
@@ -21,8 +21,8 @@ en:
     company:
       name: "Chernihiv Law College of the State Penitentiary Service of Ukraine"
       url: "academy.kvs.gov.ua"
-    position: "Lecturer in Criminal Law"
-    description: "Teaching of Criminal Law"
+    position: "Lecturer in Criminal Law and Criminology"
+    description: "Teaching of Criminal Law and Criminology"
 ua:
   - duration: "січень 2019 - ..."
     company:
