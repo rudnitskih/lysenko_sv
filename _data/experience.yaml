@@ -1,4 +1,10 @@
 en:
+- duration: "December 2019 – ..."
+    company: 
+      name: 'SURGe, Support to Ukraine’s Reforms for Governance'
+      url:  "https://www.facebook.com/surge.in.ua/"
+    position: "Penitentiary probation expert"
+    description: "Regulation development and implementation of national level projects in the in the penitentiary field"
   - duration: "2019 – ..."
     company: 
       name: 'Charitable organization "FREE ZONE"'
@@ -24,6 +30,12 @@ en:
     position: "Lecturer in Criminal Law and Criminology"
     description: "Teaching of Criminal Law and Criminology"
 ua:
+- duration: "грудень 2019 - ..."
+    company:
+      name: "Проєкту «Супровід урядових реформ в Україні»(SURGe)"
+      url: "https://www.facebook.com/surge.in.ua/"
+    position: "Експертка з пенітенціарної пробації "
+    description: "Розробка та запровадження нормативно-правових актів та реалізація проектів національного рівня у сфері виконання та відбування покарань"
   - duration: "січень 2019 - ..."
     company:
       name: "Благодійна організація «FREE ZONE»"
